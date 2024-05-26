@@ -1,0 +1,1 @@
+rqt_graph provides a GUI plugin for visualizing the ROS computation graph. It represents communication between nodes.

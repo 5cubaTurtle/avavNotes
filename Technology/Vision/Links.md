@@ -1,0 +1,1 @@
+[Carnegie Mellon University Computer Vision page](https://www.cs.cmu.edu/afs/cs/project/cil/ftp/html/vision.html), and [edge-detection](https://courses.cs.washington.edu/courses/cse455/09wi/Lects/lect3.pdf).

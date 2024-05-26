@@ -1,0 +1,1 @@
+Change hostname: `hostnamectl set-hostname newHostName`

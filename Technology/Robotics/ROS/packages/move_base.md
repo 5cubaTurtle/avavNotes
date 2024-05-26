@@ -1,0 +1,3 @@
+move_base is a navigation package that provides a robust and configurable navigation stack for autonomous mobile robots. It integrates sensor inputs, path planning algorithms, and control systems to enable a robot to navigate through an environment.
+
+To use move_base, you need to configure it with the appropriate parameters such as the robot's odometry, sensor information, and map. You can then send navigation goals to move_base using a navigation action or service interface.

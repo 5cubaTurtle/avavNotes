@@ -1,0 +1,5 @@
+- use [[apt]] to upgrade
+- Create new user using [[adduser]]
+- Set user is sudor with [[usermod]]
+- Change host name using [[hostnamectl]]
+- If it's a server, create an [[ssh-keygen|SSH key]]  to connect passwordless. And [[disable]] password access.

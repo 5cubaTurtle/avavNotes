@@ -1,0 +1,1 @@
+**Gazebo** is the most popular simulator to work with ROS with good community support. The ability of a robot could be evaluated and tested in a customized 3D scenario without any harm to the real robot.

@@ -1,0 +1,2 @@
+[wiki](https://en.wikipedia.org/wiki/Correlation)
+**correlation** or **dependence** is any relationship, whether [causal](https://en.wikipedia.org/wiki/Causality "Causality") or not, between two [random variables](https://en.wikipedia.org/wiki/Random_variable "Random variable") or [bivariate data](https://en.wikipedia.org/wiki/Bivariate_data "Bivariate data"). In statistics, "correlation" usually refers to the degree to which a pair of variables are _[linearly](https://en.wikipedia.org/wiki/Line_(geometry) "Line (geometry)")_ related.

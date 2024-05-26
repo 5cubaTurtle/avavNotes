@@ -1,0 +1,3 @@
+[tutorial](http://wiki.ros.org/ROS/Tutorials/NavigatingTheFilesystem)
+- **Packages:** Packages are the software organization unit of ROS code. Each package can contain libraries, executables, scripts, or other artifacts.
+- **Manifests ([package.xml](http://wiki.ros.org/catkin/package.xml)):** A manifest is a description of a _package_. It serves to define dependencies between _packages_ and to capture meta information about the _package_ like version, maintainer, license, etc..

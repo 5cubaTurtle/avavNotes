@@ -1,0 +1,1 @@
+Loads the kernel into the RAM with a set of kernel parameters.

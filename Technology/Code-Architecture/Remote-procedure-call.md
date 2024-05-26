@@ -1,0 +1,2 @@
+[wiki](https://en.wikipedia.org/wiki/Remote_procedure_call)
+A **remote procedure call** (**RPC**) is when a procedure executed in a different address space (commonly on another computer on a shared network), which is written as if it were a local procedure call, without the programmer explicitly writing the details for the remote interaction.

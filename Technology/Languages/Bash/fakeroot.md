@@ -1,0 +1,1 @@
+run a command in an environment faking root privileges for file manipulation

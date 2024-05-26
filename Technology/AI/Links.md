@@ -1,0 +1,4 @@
+- [get chatGPT4 for free](https://www.makeuseof.com/ways-access-gpt-4-free/)
+- [Free AI Course For Developers](https://www.zdnet.com/article/i-took-this-free-ai-course-for-developers-in-one-weekend-and-highly-recommend-it/)
+- [openAI docs](https://platform.openai.com/docs/overview)
+- 

@@ -1,0 +1,1 @@
+`qq` to start recording a series of actions (this will create a recording in register q). Then `q` to stop the recording. Then to execute the recording use *n*`@Q`. Where *n* is the number of times to execute the recording.

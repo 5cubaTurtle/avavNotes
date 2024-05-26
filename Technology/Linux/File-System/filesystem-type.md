@@ -1,0 +1,1 @@
+The  filesystem  types  which  are  currently  supported  depend  on  the  running  [[kernel]].  See */proc/filesystems*  and `/lib/modules/$(uname -r)/kernel/fs` for a complete list of the filesystems.  The most common are ext2, ext3, ext4, xfs, btrfs, vfat, sysfs, proc, nfs and cifs.

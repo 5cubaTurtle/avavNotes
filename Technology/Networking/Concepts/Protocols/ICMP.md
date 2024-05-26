@@ -1,0 +1,3 @@
+#network 
+##### Internet Control Messaging Protocol
+The Internet Control Messaging Protocol is an extension to the Internet Protocol (IP). It supports network packets containing control, error, and informational messages. ICMP is used by such network applications as the [[ping]] utility, which can determine the availability of a network host or device. Examples of some error messages returned by ICMP which are useful to both network hosts and devices such as routers, include _Destination Unreachable_ and _Time Exceeded_.

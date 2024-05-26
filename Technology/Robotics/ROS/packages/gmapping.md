@@ -1,0 +1,3 @@
+gmapping is a package that provides laser-based SLAM (Simultaneous Localization and Mapping) capabilities. It allows a robot to build a map of its environment while simultaneously localizing itself within that map using a laser sensor.
+
+To use gmapping, you need to configure the robot's laser sensor and odometry information. By driving the robot around the environment, gmapping will generate a map of the surroundings, which can be visualized using rviz or saved for later use.

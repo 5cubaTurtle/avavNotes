@@ -1,0 +1,15 @@
+[ros.org getting started](https://www.ros.org/blog/getting-started/#)
+
+ROS, which stands for Robot Operating System, is an open-source framework widely used in the field of robotics for building and controlling robotic systems. Despite its name, ROS is not an actual operating system; rather, it serves as a middleware or software platform that runs on top of a conventional operating system (such as Linux) and provides a set of tools and libraries for developing robot applications.
+
+Here are some key aspects of ROS:
+1. **Modularity:** ROS follows a modular approach, enabling developers to create software components called "nodes" that can communicate with each other. Each node performs a specific task, such as controlling a sensor or actuator, processing data, or executing algorithms. These nodes can be combined to create complex robot systems.
+2. **Communication:** ROS provides a communication infrastructure that facilitates inter-node communication. It uses a publish-subscribe messaging system called the "ROS Master" to establish connections between nodes. Nodes can publish messages to specific topics, and other nodes interested in those topics can subscribe to receive the messages. This decoupled communication mechanism enhances flexibility and scalability.
+3. **Package Management:** ROS organizes software components into packages, which are self-contained units of code that encapsulate nodes, libraries, datasets, and configuration files. Packages can be easily shared and reused, fostering collaboration and accelerating development. ROS provides tools for creating, managing, and distributing packages.
+4. **Tools and Libraries:** ROS offers a rich set of tools and libraries that simplify the development process. These include visualization tools, simulation environments, debugging tools, and data logging tools. Additionally, ROS supports multiple programming languages, such as C++, Python, and more, allowing developers to choose the language they are most comfortable with.
+5. **Community:** ROS has a vibrant and active community of developers, researchers, and roboticists who contribute to its growth and share their work. The ROS community provides extensive documentation, tutorials, forums, and resources, making it easier for newcomers to get started and for experienced users to find support and collaborate on projects.
+
+Overall, ROS provides a flexible and scalable framework for developing robotic applications, from small hobby robots to large-scale industrial systems. Its modularity, communication infrastructure, package management, and rich toolset make it a popular choice for researchers, developers, and companies in the robotics field.
+
+## roscore service
+restarting the roscore service using [[systemctl]]:`sudo systemctl restart roscore.service`

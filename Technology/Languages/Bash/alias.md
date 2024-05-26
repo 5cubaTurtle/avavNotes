@@ -1,0 +1,1 @@
+To execute a command which is overshadowed by an alias, enclose it within apostrophes: `'gazebo'` will open the gazebo application instead of invoking the *gazebo* alias.

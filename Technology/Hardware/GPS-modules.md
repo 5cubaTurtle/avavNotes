@@ -1,0 +1,2 @@
+Guides to NEO-6M GPS Module with [Arduino](https://randomnerdtutorials.com/guide-to-neo-6m-gps-module-with-arduino/), and with [Raspberry](https://randomnerdtutorials.com/email-alert-system-on-location-change-with-raspberry-pi-and-gps-module/).
+[[NMEA]]0183 protocol.

@@ -1,0 +1,1 @@
+Memory allocation mechanism. Good place to keep count of created objects. When overriding this operator make sure to call the method of the super `super().__new__()` as it is the one allocating the space for the object.

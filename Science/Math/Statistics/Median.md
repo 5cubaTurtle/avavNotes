@@ -1,0 +1,1 @@
+The value in the middle if all values are sorted ascending.

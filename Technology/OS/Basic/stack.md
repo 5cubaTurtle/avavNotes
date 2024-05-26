@@ -1,0 +1,5 @@
+#process #os 
+
+ In x86 CPU the stack starts at high memory address (0xFFFF FFFF) and grows down. This is architecture dependent and arbitrary. The [[stack-pointer]] shows where in stack the execution is now. CPU's usually have a dedicated register for this address. In some systems the stack space is tracked with a [[stack-boundary]] pointer. It kept in another CPU register. When a [[stack-pointer]] runs past this boundary it triggers a HW exception. The exception handler may increase the stack space by moving the [[stack-boundary]]. Or the handler may decide the stack is grown too large and terminate the process. An overgrown stack could be the cause of overly long chain of recursive function calls. This is called [[stack-overflow]]. On a PC, a [[stack-overflow|stack-overflowing]] process is usually terminated by the OS. On embedded systems, stack size is not necessarily monitored. So a [[stack-overflow]] there may cause unpredictable bugs as it corrupts data/code.
+
+![[stack.png]]

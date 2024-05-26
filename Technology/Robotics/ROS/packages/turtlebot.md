@@ -1,0 +1,3 @@
+turtlebot is a popular robot platform in the ROS ecosystem. It provides a set of packages for controlling and simulating TurtleBot robots. These packages include drivers, simulations, and higher-level control interfaces.
+
+To use turtlebot, you can launch the necessary launch files provided by the package to bring up the robot, its sensors, and other components. You can then interact with the robot using commands or write your own code to control its behavior.

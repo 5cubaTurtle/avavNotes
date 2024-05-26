@@ -1,0 +1,1 @@
+create an [[ndarray]] similar to [[range(n,m,i)]]:`x_is = np.arange(-10, 10)`

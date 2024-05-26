@@ -1,0 +1,3 @@
+rviz is a 3D visualization tool that allows you to display and interact with sensor data, robot models, and other visualization elements. It provides a graphical interface for debugging, analyzing, and monitoring your robot's perception and state. With a topic as input, it visualizes that based on the message type being published, which allows us to see the environment from the perspective of the robot.
+
+To use rviz, you can include it in your launch file or launch it separately using the `rviz` command. You can configure rviz to subscribe to specific topics and display data in the desired format.

@@ -1,0 +1,6 @@
+- [Nodes](http://wiki.ros.org/Nodes)[[Technology/Robotics/ROS/Graph/Node|&]]: A node is an executable that uses ROS to communicate with other nodes.
+- [Messages](http://wiki.ros.org/Messages)[[Messages|&]]: ROS data type used when subscribing or publishing to a topic.
+- [Topics](http://wiki.ros.org/Topics)[[Topic|&]]: Nodes can _publish_ messages to a topic as well as _subscribe_ to a topic to receive messages.
+- [Master](http://wiki.ros.org/Master)[[Master|&]]: Name service for ROS (i.e. helps nodes find each other)
+- [rosout](http://wiki.ros.org/rosout): ROS equivalent of stdout/stderr
+- [roscore](http://wiki.ros.org/roscore): Master + rosout + parameter server (parameter server will be introduced later)
