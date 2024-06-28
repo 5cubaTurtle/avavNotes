@@ -28,8 +28,8 @@ That’s where you define what will your shortcut replace/execute when you press
 From the example:
 `:nohlsearch<CR>` is what will be executed, vim will type `:nohlsearch` followed by the `<Enter>` key that is defined by `<CR>`.
 
-### My mappings
-```.vimrc
+### Examples
+```yaml
 " save the file, compile with g++ then run
 nnoremap ,br :w<CR> :!g++ % -o %:r && ./%:r<CR>
 
@@ -46,6 +46,32 @@ autocmd filetype cpp nnoremap ,r :w <bar> exec '!g++ '.shellescape('%').' -o '.s
 nnoremap <c-j> 0i//<esc>j
 ```
 
+```yaml
+" compile and run
+autocmd filetype python nnoremap <F4> :w <bar> exec '!python '.shellescape('%')<CR>
+autocmd filetype c nnoremap <F4> :w <bar> exec '!gcc '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd filetype cpp nnoremap <F4> :w <bar> exec '!g++ '.shellescape('%').' -o '.shellescape('%:r').' && ./'.shellescape('%:r')<CR>
+autocmd filetype cpp nnoremap ,br :w<CR> :!clang++-18 -lstdc++ -Wall -Wextra % -o %:r && ./%:r<CR>
+
+""" C++
+" Comment this line
+autocmd filetype c,cpp nnoremap <c-j> 0i//<esc>j
+" Print this word
+autocmd filetype cpp nnoremap cout yeo<tab>cout << "<c-r>": "<< <c-r>" << endl;<esc>2B
+autocmd filetype cpp nnoremap ,ios i#include <iostream><enter>using std::cout, std::endl;
+" Closing brackets autocompletion
+autocmd filetype c,cpp inoremap {<c-j> {<CR>}<Esc>ko<tab>
+autocmd filetype c,cpp inoremap {} {   }<esc>2hi
+"autocmd filetype c,cpp inoremap () ()<esc>i
+autocmd filetype c,cpp inoremap ()<c-j> () {<CR>}<Esc>ko<tab>
+autocmd filetype c,cpp inoremap [] []<esc>i
+autocmd filetype c,cpp inoremap #inc #include <><esc>i
+
+" Insert a single character
+nnoremap <space> i <esc>r
+```
+
+[[vimrc|This]] is my *.vimrc* file.
 ### Other
 Display user defined mappings: `:map`
 To get the name of a specific key, for example `<F4>` see [[Technology/IDE/Vim/Colon-cli/help#Getting the name of the key|Getting the code of the key]].

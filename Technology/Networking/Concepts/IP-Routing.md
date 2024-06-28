@@ -1,2 +1,2 @@
-#network 
-IP routing is a way of specifying and discovering paths in a [[TCP]][[Technology/Networking/Concepts/Protocols/IP]] network that network data can be sent along. Routing uses a set of [[routing tables]] to direct the forwarding of network data packets from their source to the destination, often via many intermediary network nodes known as _routers_. There are two primary forms of IP routing: [[static routing]] and [[dynamic routing]].
+#networking 
+IP routing is a way of specifying and discovering paths in a [[TCP]]/[[IP]] network that network data can be sent along. Routing uses a set of [[routing tables]] to direct the forwarding of network data packets from their source to the destination, often via many intermediary network nodes known as _routers_. There are two primary forms of IP routing: [[Static-routing]] and [[Dynamic-Routing]].

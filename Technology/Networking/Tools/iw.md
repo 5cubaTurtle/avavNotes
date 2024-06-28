@@ -1,4 +1,4 @@
-#network 
+#networking 
 show / manipulate wireless devices and their configuration
 
 scan wireless networks visible to interface "mlan0":

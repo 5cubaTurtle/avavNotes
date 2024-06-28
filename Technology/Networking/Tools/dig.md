@@ -1,4 +1,4 @@
-#linux, #network 
+#linux, #networking 
 DNS lookup utility
 
 to querry the router for DHCP clients:  `dig <@router-ip> <client>`

@@ -1,4 +1,4 @@
-#network #vpn 
+#networking #vpn 
 set and retrieve configuration of WireGuard interfaces
 
 [wireguard.com - quickstart](https://www.wireguard.com/quickstart/)

@@ -1,4 +1,4 @@
-#linux #network 
+#linux #networking 
 get entries from Name Service Switch libraries
 
 see all hosts in /etc/hosts:   `getent hosts`

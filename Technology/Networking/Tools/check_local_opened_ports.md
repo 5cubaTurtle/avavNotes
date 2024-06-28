@@ -1,4 +1,4 @@
-#linux #network 
+#linux #networking 
 
 see opened ports on the current machine:
 ```shell

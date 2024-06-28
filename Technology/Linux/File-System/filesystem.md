@@ -14,5 +14,5 @@ Several standard directories in a typical Linux file system:
 -   `/opt`: typically used to store optional software packages.
 -   `/srv`: used to store data files for services provided by the system.
 -   `/tmp`: used to store temporary files that are not needed across system reboots.
--   `/var`: files that are likely to change over time, such as logs and temporary files.
+-   /[[var]]: files that are likely to change over time, such as logs and temporary files.
 **Note:** the exact directory structure can vary depending on the Linux distribution.

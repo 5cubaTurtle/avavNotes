@@ -1,7 +1,7 @@
-the “d” at the end of `systemd` stands for daemon. To tick all the boxes, a service must be:
+The “d” at the end of `systemd` stands for daemon. To tick all the boxes, a service must be:
 - Integrated with `systemd` through a service unit file
 - Launched at startup
-- Controllable using `systemctl`, the [control interface](https://www.man7.org/linux/man-pages/man1/systemctl.1.html) for `systemd`
+- Controllable using [[systemctl]], the [control interface](https://www.man7.org/linux/man-pages/man1/systemctl.1.html) for `systemd`
 - Able to write to the journal
 
 A service [[unit-file]] typically has a file extension of `.service` and is located in the `/etc/systemd/system` directory or `/usr/lib/systemd/system` directory. It contains directives that specify how the service should be started, stopped, and managed by systemd.

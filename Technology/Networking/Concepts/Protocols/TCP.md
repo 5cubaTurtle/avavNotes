@@ -1,3 +1,3 @@
-#network 
+#networking 
 
 TCP is a connection-based protocol, offering error correction and guaranteed delivery of data via what is known as _flow control_. Flow control determines when the flow of a data stream needs to be stopped, and previously-sent data packets should to be re-sent due to problems such as _collisions_, for example, thus ensuring complete and accurate delivery of the data. TCP is typically used in the exchange of important information such as database transactions.

@@ -1,0 +1,6 @@
+---
+wiki: https://en.wikipedia.org/wiki/Process_(computing)
+---
+An [instance](https://en.wikipedia.org/wiki/Instance_(computer_science) "Instance (computer science)") of a [computer program](https://en.wikipedia.org/wiki/Computer_program "Computer program") that is being executed by one or many [threads](https://en.wikipedia.org/wiki/Thread_(computing) "Thread (computing)"). There are many different process models, some of which are light weight, but almost all processes (even entire [virtual machines](https://en.wikipedia.org/wiki/Virtual_machine "Virtual machine")) are rooted in an [operating system](https://en.wikipedia.org/wiki/Operating_system "Operating system") (OS) process which comprises the program code, assigned system resources, physical and logical access permissions, and data structures to initiate, control and coordinate execution activity. Depending on the OS, a process may be made up of multiple threads of execution that execute instructions [concurrently](https://en.wikipedia.org/wiki/Concurrency_(computer_science) "Concurrency (computer science)").
+
+While a computer program is a passive collection of [instructions](https://en.wikipedia.org/wiki/Instruction_set "Instruction set") typically stored in a file on disk, a process is the execution of those instructions after being loaded from the disk into [[memory]].

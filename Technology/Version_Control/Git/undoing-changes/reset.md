@@ -1,4 +1,4 @@
-#git 
+git 
 Reset current HEAD to the specified state.
 
 >**Warning:** This command changes the history as it moves the branch reference.

@@ -1,16 +1,14 @@
 #git
-[see and extract a file from stash](https://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash)
+[See and extract a file from stash](https://stackoverflow.com/questions/1105253/how-would-i-extract-a-single-file-or-changes-to-a-file-from-a-git-stash)
 
-list stashed modifications:   `git stash list`
-show latest stash [[Technology/Version_Control/Git/differences/diff]] :   `git stash show -p` 
-push to stash:   `git stash`
-pop from stash:   `git stash pop`
-to apply changes from stash (while keeping them in stash):   `git stash apply`
-remove all the stash entries:   `git stash clear`
-remove a stash entry (use `list` see all):   `git stash drop stash@{1}`
-see [[Technology/Version_Control/Git/differences/diff|diff]] vs stash:   `git diff stash@{0}^1 stash@{0}`
-see [[Technology/Version_Control/Git/differences/diff|diff]] vs file_in_stash:   `git diff stash@{0}^1 stash@{0} -- <file_in_stash>`
-checkout a file from stash:   `git checkout stash@{0} -- <file_in_stash>`
+List stashed modifications:   `git stash list`
+Show latest stash [[Technology/Version_Control/Git/differences/diff]] :   `git stash show -p` 
+Push to stash:   `git stash`
+Pop from stash:   `git stash pop` to apply changes from stash (while keeping them in stash):   `git stash apply`
+Remove all the stash entries:   `git stash clear`
+Remove a stash entry (use `list` see all):   `git stash drop stash@{1}`
+See [[Technology/Version_Control/Git/differences/diff|diff]] vs stash:   `git diff stash@{0}^1 stash@{0}` see [[Technology/Version_Control/Git/differences/diff|diff]] vs file_in_stash:   `git diff stash@{0}^1 stash@{0} -- <file_in_stash>`
+Checkout a file from stash:   `git checkout stash@{0} -- <file_in_stash>`
 or to save it under another filename:
 ```shell
 git show stash@{0}:<full filename>  >  <newfile>
@@ -19,10 +17,9 @@ or
 ```shell
 git show stash@{0}:./<relative filename> > <newfile>
 ```
-_note_ that here <full filename\> is full pathname of a file relative to top directory of a project (think: relative to `stash@{0}`)
-You might need to protect `stash@{0}` from shell expansion, i.e. use `"stash@{0}"` or `'stash@{0}'`
+_note_ that here <full filename\> is full pathname of a file relative to top directory of a project (think: relative to `stash@{0}`) You might need to protect `stash@{0}` from shell expansion, i.e. use `"stash@{0}"` or `'stash@{0}'`
 
-push to stash while keeping the index:
+Push to stash while keeping the index:
 ```shell
 git stash push -p -m "my commit message" --keep-index
 ```

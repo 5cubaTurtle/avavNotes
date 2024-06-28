@@ -11,4 +11,4 @@ or
 `dic['c']=9` mutates the dic to \{'a': 1, 'b':2, 'c': 9\}
 
 - a dictionary could have several sets of keys and values i.e. a dictionary within a dictionary:
-`dic={'animals':{'cat':'black', 'dog': 'brown', 'rabbit': 'white'}`
+`dic={'animals':{'cat':'black', 'dog': 'brown', 'rabbit': 'white'}}`

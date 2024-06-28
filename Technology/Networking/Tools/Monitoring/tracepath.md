@@ -1,4 +1,4 @@
-#linux #network 
+#linux #networking 
 traces path to a network host discovering MTU along this path
 
 `tracepath google.com`

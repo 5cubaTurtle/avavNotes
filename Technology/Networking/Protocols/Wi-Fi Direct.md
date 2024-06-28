@@ -1,0 +1,2 @@
+[wiki](https://en.wikipedia.org/wiki/Wi-Fi_Direct)
+**Wi-Fi Direct** (formerly **Wi-Fi Peer-to-Peer**) is a [Wi-Fi](https://en.wikipedia.org/wiki/Wi-Fi "Wi-Fi") standard for [peer-to-peer](https://en.wikipedia.org/wiki/Peer-to-peer "Peer-to-peer") wireless connections that allows two devices to establish a direct Wi-Fi connection without an intermediary wireless access point, router, or Internet connection.

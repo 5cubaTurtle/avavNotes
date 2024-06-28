@@ -12,3 +12,7 @@ pstree - display a tree of processes
 
 `pgrep <pattern>`   shows pids of processes whose name match the <pattern\>
 `pkill <pattern>`   sends **SIGTERM** to processes whose name match the <pattern\>
+
+### Startup
+download guide to start a process at boot or login [here](https://forums.raspberrypi.com/viewtopic.php?t=314455)
+![[boot.pdf]]

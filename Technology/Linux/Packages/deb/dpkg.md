@@ -1,15 +1,27 @@
 #linux 
 package manager for Debian
 
-list specific package:   `dpkg -l <package_name>`
+## Info
+List specific package:   `dpkg -l <package_name>`
 `-L, --listfiles` package-name...
 	List files installed to your system from package-name.
 	
-sort packages by space usage [(source)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=1ahUKEwi7_eK959v0AhWBYsAKHSmbADMQFnoECAsQAQ&url=https%3A%2F%2Funix.stackexchange.com%2Fquestions%2F40442%2Fwhich-installed-software-packages-use-the-most-disk-space-on-debian&usg=AOvVaw2gixurBZ6VpVBTDIKyRLRc):  
+Information about .deb file:   `dpkg -I path_to_deb_file`
+Find out package apache-perl or sudo is installed or not, type command: `dpkg -s apache-perl`
+Recently installed packages:
+	`zcat -f /var/log/dpkg.log* | grep "\ install\ " | sort`
+
+Sort packages by space usage [(source)](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=1ahUKEwi7_eK959v0AhWBYsAKHSmbADMQFnoECAsQAQ&url=https%3A%2F%2Funix.stackexchange.com%2Fquestions%2F40442%2Fwhich-installed-software-packages-use-the-most-disk-space-on-debian&usg=AOvVaw2gixurBZ6VpVBTDIKyRLRc):  
 ```shell
 dpkg-query -Wf '${Installed-Size}\t${Package}\n' | sort -n
 ```
 
+### Architecture
+Show native architecture: `dpkg --print-architecture`
+Show all used architectures (which are allowed to be installed): `dpkg --print-foreign-architecture`
+Show all packages: `dkpg --get-selections`. To see which use different arch then amd64 use as follows:`dpkg --get-selections | grep 386`, or `...|grep amhf`
+
+## Installation
 Installing .deb file:
 `sudo dpkg -i package_file.deb`
 	If `--recursive` or `-R` option is specified, package-file must refer to a directory instead.
@@ -24,15 +36,8 @@ Installing .deb file:
 
 `--force-overwrite` overwrite a conflicting file. If during installation of several packages (by dependency) one file is being edited by different packages this option will force overwriting the file. Otherwise the last installation will fail.
 
-information about .deb file:   `dpkg -I path_to_deb_file`
-find out package apache-perl or sudo is installed or not, type command:
-	`dpkg -s apache-perl`
-recently installed packages:
-	`zcat -f /var/log/dpkg.log* | grep "\ install\ " | sort`
-remove a package:  `sudo dpkg -r <package_name>`,  \<package_name\> could be verified through [[apt-get]]:  `apt-cache show <package_name>`
-purge a package: `sudo dpkg -P <package>`
+Remove a package:  `sudo dpkg -r <package_name>`
+	`<package_name>` could be verified through [[apt-get]]:  `apt-cache show <package_name>`
 
-### Architecture
-Show native architecture: `dpkg --print-architecture`
-Show all used architectures (which are allowed to be installed): `dpkg --print-foreign-architecture`
-Show all packages: `dkpg --get-selections`. To see which use different arch then amd64 use as follows:`dpkg --get-selections | grep 386`, or `...|grep amhf`
+Purge a package: `sudo dpkg -P <package>`
+

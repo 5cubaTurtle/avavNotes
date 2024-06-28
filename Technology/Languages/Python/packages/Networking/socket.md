@@ -3,6 +3,10 @@ import: `import socket`
 ### functions
 get current [[hostname]]: `hostname = socket.gethostname()`
 
+Bind:
+```python
+sock.bind((source_ip, 0)) # Bind the socket to the source IP and any available port
+```
 ### setup tcp connection
 TCP server:
 ```python

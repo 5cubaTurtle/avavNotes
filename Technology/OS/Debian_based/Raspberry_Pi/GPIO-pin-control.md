@@ -1,4 +1,4 @@
-[doc](https://www.raspberrypi.com/documentation/computers/os.html#gpio-and-the-40-pin-header)
+[doc](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 1. Stop the *br-always-on* service. It turns off the leds if the robot is not launched.
 2. write *1* to pin *gpio18*:
 ```sh

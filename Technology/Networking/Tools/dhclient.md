@@ -1,4 +1,4 @@
-#linux #network 
+#linux #networking 
 Dynamic Host Configuration Protocol Client
 
 examples from [cyberciti](https://www.cyberciti.biz/faq/howto-linux-renew-dhcp-client-ip-address/)

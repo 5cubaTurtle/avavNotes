@@ -3,7 +3,7 @@
 [quick video guide](https://youtu.be/IT8RYokUvvQ)
 [guidelines](https://docs.python.org/3.8/library/multiprocessing.html#programming-guidelines)
 
-[[Process]] [[shared-memory]] [[Lock]] [[Pipe]] [[Queue]] [[Pool]]
+[[Technology/Languages/Python/packages/Process/multiprocessing/Process]] [[shared-memory]] [[Lock]] [[Pipe]] [[Queue]] [[Pool]]
 sample code:
 ```python
 from multiprocessing import Process, Lock, Value, Array, Queue  

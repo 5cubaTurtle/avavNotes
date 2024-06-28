@@ -1,5 +1,4 @@
 In Bash, the `test` command takes one of the following syntax forms:
-
 ```sh
 test EXPRESSION
 [ EXPRESSION ]

@@ -1,4 +1,4 @@
-write all output of a section of code to a log file:
+Write all output of a section of code to a log file:
 ```sh
 {
 

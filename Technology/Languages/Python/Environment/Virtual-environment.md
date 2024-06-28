@@ -4,7 +4,7 @@
 - Install venv:   `sudo apt install python3.8-venv`
 - Creating an env:   `python -m venv <env_name>`, this will create a dir named *env_name*
 	- This will use the system default python version. Use the appropriate python link to set the desired version. For example: `python3.12 -m ...` for *python3.12*
-- To delete the env, [[Technology/Linux/utils/File-system/rm|remove]] the venv follder: `rm -r <env_name>`
+- To delete the env, [[Technology/Linux/File-System/utilities/rm|remove]] the venv follder: `rm -r <env_name>`
 - Activating the env:  `source path/to/env/bin/activate`
 - To install a package to a venv use [[PIP|pip]] install with the venv active
 - Deactivate the env, use:`deactivate`

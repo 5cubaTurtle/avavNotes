@@ -6,7 +6,7 @@ diff patches are useful for:
 - Useful when changes are not ready for public branch
 - Useful when collaborators do not share a remote
 
-save diff to a file:`git diff 8527e7a e24cf05 > ~/Desktop/4_review.diff`
+Save diff to a file:`git diff 8527e7a e24cf05 > ~/Desktop/4_review.diff`
 [[apply]] a patch to the working-directory:`git apply 4_review.diff`
 
 **Note**: A patch can only be applied if the working-directory is in an acceptable 

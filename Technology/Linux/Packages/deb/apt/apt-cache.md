@@ -3,7 +3,7 @@ query the APT cache
 
 [itsFOSS explanation](https://itsfoss.com/apt-cache-command/)
 The [[apt]]-update command 
-The **location of APT cache** is */var/lib/apt/lists/*. it contains text files with metadata and other data lice icons (maybe for GUI package manager like the [[ubuntu-software]]) as *tar.gz* files:
+The **location of APT cache** is */var/lib/apt/lists/*. it contains text files with metadata and other data like icons (maybe for GUI package manager like the [[ubuntu-software]]) as *tar.gz* files:
 ```sh
 archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_binary-amd64_Packages
 archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_dep11_icons-48x48.tar.gz

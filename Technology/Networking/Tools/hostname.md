@@ -1,4 +1,4 @@
-#linux #network 
+#linux #networking 
        hostname - show or set the system's host name
        domainname - show or set the system's NIS/YP domain name
        ypdomainname - show or set the system's NIS/YP domain name

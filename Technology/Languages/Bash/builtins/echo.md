@@ -1,3 +1,7 @@
+---
+aliases:
+  - /bin/echo
+---
 #shell 
 [[echo]](https://linuxize.com/post/echo-command-in-linux-with-examples/)
 Builtin in Bash and most of the other popular shells like Zsh and Ksh. Its behavior is slightly different from shell to shell.

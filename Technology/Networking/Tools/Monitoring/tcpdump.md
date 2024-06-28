@@ -1,4 +1,4 @@
-#linux #network 
+#linux #networking 
 dump traffic on a network
 
  [guide](https://www.tecmint.com/12-tcpdump-commands-a-network-sniffer-tool/)

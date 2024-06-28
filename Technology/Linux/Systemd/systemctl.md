@@ -1,5 +1,5 @@
 #linux 
-Control the systemd system and service manager
+Control the [[systemd]] system and service manager
 
 - start:`sudo systemctl start roscore.service`
 - restart:`sudo systemctl restart roscore.service`
